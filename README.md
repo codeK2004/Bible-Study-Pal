@@ -38,32 +38,6 @@ Google Gemini (Flash-Lite) – LLM
 PyPDF2 – PDF processing
 
 
-## 📂 Project Structure
-Bible_Study_Pal/
-├── app.py                  # Streamlit app
-├── rag.py                  # RAG logic (retrieval + generation)
-├── data/
-│   └── bible_commentary.txt
-├── requirements.txt
-├── .gitignore
-├── README.md
-
-
-⚠️ Current Limitations
-
-Early prototype, may produce inaccurate or incomplete answers
-Limited error handling
-No persistent vector store across sessions yet
-Works best with clean, structured PDFs, txt files.
-
-🌱 Future Improvements
-
-Better chunking and metadata (book, chapter, verse)
-Persistent vector storage
-Improved prompt design
-UI enhancements
-Support for multiple Bible translations
-
 ## Setup Instructions
 python3.11 -m venv venv
 source venv/bin/activate
