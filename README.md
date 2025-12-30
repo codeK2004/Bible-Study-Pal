@@ -40,10 +40,10 @@ PyPDF2 – PDF processing
 
 ## 📂 Project Structure
 Bible_Study_Pal/
-├── app.py # Streamlit application
-├── rag.py # RAG logic (retrieval + generation)
+├── app.py                  # Streamlit app
+├── rag.py                  # RAG logic (retrieval + generation)
 ├── data/
-│ └── bible_commentary.txt
+│   └── bible_commentary.txt
 ├── requirements.txt
 ├── .gitignore
 ├── README.md
