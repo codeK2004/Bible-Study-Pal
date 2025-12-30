@@ -1,5 +1,4 @@
 
-````markdown
 # 📖 Bible Study Pal
 
 Bible Study Pal is a **Retrieval-Augmented Generation (RAG)** based Bible study assistant built with **Python** and **Streamlit**.  
