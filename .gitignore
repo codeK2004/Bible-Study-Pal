@@ -1,62 +1,35 @@
-# ===============================
 # Python
-# ===============================
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
 
-# ===============================
-# Virtual Environment
-# ===============================
+# Virtual environments
 venv/
 .venv/
 env/
 
-# ===============================
-# Environment Variables
-# ===============================
+# Environment variables
 .env
 .env.*
 
-# ===============================
-# OS Files
-# ===============================
+# OS files
 .DS_Store
-Thumbs.db
 
-# ===============================
-# Streamlit
-# ===============================
+# Streamlit secrets
 .streamlit/secrets.toml
 
-# ===============================
-# RAG / AI Artifacts
-# ===============================
+# RAG / embeddings
 *.faiss
 *.index
 vector_store/
 embeddings/
 
-# ===============================
-# Uploaded PDFs / Data (optional)
-# ===============================
-data/
+# Uploads (PDFs, etc.)
 uploads/
 
-# ===============================
 # Logs
-# ===============================
 *.log
 
-# ===============================
-# IDE / Editor
-# ===============================
+# IDEs
 .vscode/
 .idea/
 *.code-workspace
-
-# ===============================
-# Cache
-# ===============================
-.cache/
